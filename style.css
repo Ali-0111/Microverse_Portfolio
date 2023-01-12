@@ -7,7 +7,7 @@
 html {
   font-size: 62.5%;
 }
- 
+
 .main-head {
   height: 10rem;
   display: flex;
@@ -34,4 +34,3 @@ span {
   margin: 0.6rem;
   display: block;
 }
-
