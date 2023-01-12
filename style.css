@@ -14,13 +14,15 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 10vh;
+  box-shadow: 0px 0.5px 10px #DDDFE6;
 }
 
 .main-head nav {
   width: 100%;
 }
 
-ul {
+nav ul {
   list-style: none;
   border: 2px solid green;
   display: flex;
@@ -34,4 +36,20 @@ p {
   font-size: 2.6rem;
   color: black;
   text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* section: intro */
+.intro {
+
+}
+
+.intro-text {
+
+}
+
+.intro-img {
+
 }
