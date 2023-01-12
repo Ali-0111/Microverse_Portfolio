@@ -22,9 +22,6 @@ html {
 
 ul {
   list-style: none;
-}
-
-.main-head ul {
   border: 2px solid green;
   display: flex;
   gap: 5rem;
