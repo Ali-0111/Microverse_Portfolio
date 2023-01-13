@@ -100,8 +100,8 @@ span {
   background-repeat: repeat-x;
 }
 
-.work{
-  width: 100%; 
+.work {
+  width: 100%;
 }
 
 .work-head {
@@ -112,13 +112,13 @@ span {
 
 .work-head h1 {
   font-size: 5rem;
-  font-family: "PlayFairDisplay";
+  font-family: "PlayFairDisplay", sans-serif;
 }
 
 .grid_2r {
- display: grid;
- grid-template-rows: 18.6rem auto;
- grid-column: 1fr;
+  display: grid;
+  grid-template-rows: 18.6rem auto;
+  grid-column: 1fr;
 }
 
 .img1 {
@@ -132,13 +132,12 @@ span {
 }
 
 .texts {
-  background: linear-gradient(0deg, #1a2236, #1a2236),
-  linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
-  ;
+  background: linear-gradient(0deg, #1a2236, #1a2236);
   padding: 2rem;
 }
+
 .texts h2 {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-size: 2rem;
   font-weight: 300;
   line-height: 1.6rem;
@@ -150,7 +149,7 @@ span {
   font-size: 1.03rem;
   font-weight: 300;
   line-height: 0.827rem;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   color: black;
   border: none;
   padding: 0.6rem 1rem;
