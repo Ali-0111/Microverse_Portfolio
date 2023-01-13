@@ -93,8 +93,8 @@ span {
   transition: all ease 1s;
 }
 
-.intro-img{
-  margin: 3.4rem 0 4rem 0; 
+.intro-img {
+  margin: 3.4rem 0rem 4rem 0rem;
 }
 
 .intro-img img {
@@ -102,3 +102,4 @@ span {
   height: auto;
   object-fit: cover;
 }
+
