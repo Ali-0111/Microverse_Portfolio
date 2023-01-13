@@ -43,7 +43,7 @@ body {
 }
 
 span {
-  background: #c4c4c4;
+  background: black;
   padding: 0.2rem 2rem;
   margin: 0.6rem;
   display: block;
@@ -93,11 +93,11 @@ span {
 }
 
 .intro-img {
+  width: 100%;
+  height: 16rem;
   margin: 3.4rem 0 4rem 0;
+  background-image: url("./img/Shape-2.png");
+  background-repeat: repeat-x;
 }
 
-.intro-img img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
+
