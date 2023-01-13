@@ -29,7 +29,6 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   min-height: 10vh;
-  box-shadow: 0.1px 0.5px 10px #dddfe6;
 }
 
 .img-2 {
@@ -103,4 +102,3 @@ span {
   height: auto;
   object-fit: cover;
 }
-
