@@ -32,7 +32,7 @@ body {
 
 .img-2 {
   position: absolute;
-  transform: translateX(-50%)
+  transform: translateX(-50%);
 }
 
 .humberger {
@@ -99,5 +99,3 @@ span {
   background-image: url("./img/Shape-2.png");
   background-repeat: repeat-x;
 }
-
-
