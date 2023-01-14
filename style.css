@@ -360,8 +360,8 @@ span {
   padding: 0 1.4rem 2rem 1.8rem;
 }
 
-fieldset,textarea {
-  font-family: "Poppins",  sans-serif;
+fieldset, textarea {
+  font-family: "Poppins", sans-serif;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -386,20 +386,13 @@ fieldset input {
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 2.1rem;
-  color: #1A2236;
+  color: #1a2236;
   border: none;
 }
 
 footer {
   padding: 3.2rem 1.9rem 4rem 1.9rem;
   background: #1a2236;
-}
-
-.footer-down {
-  background: url("./img/Union.svg");
-  width: 1.68rem;
-  aspect-ratio: 1/1;
-  background-repeat: no-repeat;
 }
 
 textarea {
@@ -436,7 +429,6 @@ textarea {
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 2.4rem;
-  letter-spacing: 0em;
   text-align: left;
   color: #92dcdc;
 }
@@ -453,4 +445,3 @@ textarea {
   justify-content: space-between;
 
 }
-
