@@ -360,7 +360,8 @@ span {
   padding: 0 1.4rem 2rem 1.8rem;
 }
 
-fieldset, textarea {
+fieldset,
+textarea {
   font-family: "Poppins", sans-serif;
   width: 100%;
   display: flex;
@@ -443,5 +444,4 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
