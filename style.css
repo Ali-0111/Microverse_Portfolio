@@ -249,7 +249,6 @@ span {
 
 .about-header {
   height: 37.3rem;
-  border: 2px solid red;
 }
 
 .downbtn {
@@ -265,7 +264,6 @@ span {
   display: flex;
   flex-direction: column;
   padding: 5rem;
-  border: 2px solid green;
   position: relative;
   font-size: 1.8rem;
   font-weight: 600;
@@ -317,3 +315,142 @@ span {
 .yellow {
   background: #febf52;
 }
+
+.contact {
+  margin-top: 5rem;
+  background: #f9f9fa;
+  width: 100%;
+  height: 66.3rem;
+}
+
+.contact-header {
+  left: 0;
+}
+
+.logo-div {
+  width: 11.1rem;
+  height: 7.402rem;
+}
+
+.title {
+  margin: 3rem 0;
+  margin: 3rem 1.4rem 3.2rem 1.8rem;
+  color: #1a2236;
+}
+
+.title h1 {
+  font-family: "PlayFairDisplay", sans-serif;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 5rem;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.title p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.1rem;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+.form {
+  padding: 0 1.4rem 2rem 1.8rem;
+}
+
+fieldset,textarea {
+  font-family: "Poppins",  sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.4rem 1.6rem 0.8rem 1.6rem;
+  margin-bottom: 0.8rem;
+  height: 5.2rem;
+  background: #ffff;
+  border-radius: 4px;
+  border: 1px solid #dfdfe0;
+  color: #7d7c84;
+}
+
+fieldset label {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  height: 1.5rem;
+  border: none;
+}
+
+fieldset input {
+  height: 2.1rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #1A2236;
+  border: none;
+}
+
+footer {
+  padding: 3.2rem 1.9rem 4rem 1.9rem;
+  background: #1a2236;
+}
+
+.footer-down {
+  background: url("./img/Union.svg");
+  width: 1.68rem;
+  aspect-ratio: 1/1;
+  background-repeat: no-repeat;
+}
+
+textarea {
+  height: 11.2rem;
+  margin-bottom: 0;
+}
+
+.form-btn {
+  width: 100%;
+  height: 4.4rem;
+  padding: 1rem;
+  border: none;
+  color: white;
+  background: #1a2236;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 6.4rem;
+}
+
+.footer-btn {
+  height: 3.4rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  background: #1a2236;
+  gap: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #92dcdc;
+}
+
+.footer-down {
+  background: url("./icon/ic_link_teal.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
