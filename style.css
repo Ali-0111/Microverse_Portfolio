@@ -21,7 +21,9 @@ html {
 body {
   font-family: "Poppins", sans-serif;
 }
-
+ul {
+  list-style: none;
+}
 .main-head {
   height: 10rem;
   display: flex;
@@ -119,7 +121,6 @@ span {
   display: grid;
   grid-template-rows: 18.6rem auto;
   grid-column: 1fr;
-  gap: 0;
 }
 
 .content {
