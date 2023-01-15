@@ -119,10 +119,14 @@ span {
   display: grid;
   grid-template-rows: 18.6rem auto;
   grid-column: 1fr;
+  gap: 0;
 }
 
-.img1 {
-  width: 100%;
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
 }
 
 .img1 img {
@@ -134,6 +138,7 @@ span {
 .texts {
   background: linear-gradient(0deg, #1a2236, #1a2236);
   padding: 2rem;
+  margin: 0;
 }
 
 .texts h2 {
