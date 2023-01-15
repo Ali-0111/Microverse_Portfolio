@@ -215,6 +215,10 @@ span {
   text-decoration: none;
   font-size: 1.6rem;
 }
+.link:hover {
+  color: white;
+  background: #141c30;
+}
 
 .icon {
   background: url("./img/Union.png");
