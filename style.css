@@ -21,9 +21,19 @@ html {
 body {
   font-family: "Poppins", sans-serif;
 }
-/* ul {
-  list-style: none;
-} */
+
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #1a2236;
+}
+
+button:active {
+  cursor: pointer;
+  color:#1a2236;
+  background: white;
+}
+
 .main-head {
   height: 10rem;
   display: flex;
@@ -89,8 +99,8 @@ span {
 
 .intro button:hover {
   cursor: pointer;
-  background-color: #101625;
   text-decoration: underline;
+  color: #1a2236;
   transition: all ease 1s;
 }
 
@@ -160,6 +170,10 @@ span {
   border: none;
   padding: 0.6rem 1rem;
   text-align: center;
+}
+
+.link:hover {
+  cursor: pointer;
 }
 
 .btns {
@@ -243,6 +257,9 @@ span {
   justify-content: center;
 }
 
+.cv-btn:hover {
+  background: #1a2236;
+}
 .cv-btn a {
   color: white;
   text-decoration: none;
@@ -450,14 +467,10 @@ textarea {
   color: #92dcdc;
 }
 
-button:hover {
-  cursor: pointer;
-}
-
-button:active {
-  cursor: pointer;
-  color:#1a2236;
-  background: white;
+.footer-btn:hover {
+  text-decoration: underline;
+  background: #1a2236;
+  color: #92dcdc;
 }
 
 .footer-down {
