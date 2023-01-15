@@ -21,9 +21,9 @@ html {
 body {
   font-family: "Poppins", sans-serif;
 }
-ul {
+/* ul {
   list-style: none;
-}
+} */
 .main-head {
   height: 10rem;
   display: flex;
@@ -267,16 +267,16 @@ span {
   background: #1c528a;
   width: 100%;
   height: 28.9rem;
-  display: flex;
-  flex-direction: column;
-  padding: 5rem;
-  position: relative;
+  padding: 5rem 0 0 5rem;
   font-size: 1.8rem;
   font-weight: 600;
   line-height: 2.7rem;
   letter-spacing: -5.25%;
   color: #ffff;
   font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 .text-about h2 {
@@ -296,14 +296,18 @@ span {
   letter-spacing: -0.0525em;
   text-align: left;
   color: #ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-position: inside;
 }
 
 .flex-end {
-  bottom: 0;
-  right: 0;
   width: 10.2rem;
   height: 10.2rem;
   position: absolute;
+  bottom:0;
+  right: 0;
 }
 
 .imgbtm {
@@ -312,6 +316,12 @@ span {
 
 .red {
   background: #e2505c;
+}
+
+.imgbtm2 {
+  background: url("./img/ic_framework.svg");
+  right: -0.5rem;
+  bottom: -0.5rem;
 }
 
 .imgbtm3 {
