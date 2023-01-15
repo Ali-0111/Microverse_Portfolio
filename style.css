@@ -172,10 +172,6 @@ span {
   text-align: center;
 }
 
-.link:hover {
-  cursor: pointer;
-}
-
 .btns {
   margin-top: 2rem;
   display: grid;
@@ -219,6 +215,7 @@ span {
 .link:hover {
   color: white;
   background: #141c30;
+  cursor: pointer;
 }
 
 .icon {
