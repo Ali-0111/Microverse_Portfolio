@@ -437,11 +437,11 @@ textarea {
   height: 3.4rem;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   text-decoration: none;
   cursor: pointer;
   border: none;
   background: #1a2236;
-  gap: 1.5rem;
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
   font-weight: 500;
@@ -464,10 +464,13 @@ button:active {
   background: url("./icon/ic_link_teal.svg");
   background-position: center;
   background-repeat: no-repeat;
+  width: 2.2rem;
+  height: 2.2rem;
 }
 
 .icons {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 3rem 0 4rem 0;
 }
