@@ -440,6 +440,16 @@ textarea {
   color: #92dcdc;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  cursor: pointer;
+  color:#1a2236;
+  background: white;
+}
+
 .footer-down {
   background: url("./icon/ic_link_teal.svg");
   background-position: center;
