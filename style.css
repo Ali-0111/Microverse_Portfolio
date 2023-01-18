@@ -114,6 +114,8 @@ span {
 
 .work {
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .work-head {
@@ -129,8 +131,8 @@ span {
 
 .grid_2r {
   display: grid;
-  grid-template-rows: 18.6rem auto;
-  grid-column: 1fr;
+  grid-template-rows: 19.6rem auto;
+  grid-template-columns: 1fr;
 }
 
 .content {
@@ -138,13 +140,14 @@ span {
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
+  grid-column: auto;
 }
 
 .img1 img {
-  width: 100%;
   height: 100%;
+  width: 100%;
   object-fit: cover;
-}
+} 
 
 .texts {
   background: linear-gradient(0deg, #1a2236, #1a2236);
