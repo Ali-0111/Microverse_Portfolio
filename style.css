@@ -22,18 +22,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-button:hover {
-  cursor: pointer;
-  background-color: white;
-  color: #1a2236;
-}
-
-button:active {
-  cursor: pointer;
-  color: #1a2236;
-  background: white;
-}
-
 .main-head {
   height: 10rem;
   display: flex;
@@ -272,7 +260,8 @@ span {
   justify-content: center;
 }
 
-.cv-btn:hover {
+.cv-btn:hover,
+.cv-btn:active {
   background: #1a2236;
 }
 
