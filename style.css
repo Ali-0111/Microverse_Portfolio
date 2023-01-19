@@ -204,7 +204,7 @@ span {
 }
 
 .link:hover {
-  border: 1px solid #1A2236;
+  border: 1px solid #1a2236;
   background: #ffff;
   cursor: pointer;
 }
@@ -214,7 +214,7 @@ span {
 }
 
 .link:active {
-  border: 2px solid #1A2236;
+  border: 2px solid #1a2236;
   background: #ffff;
   cursor: pointer;
 }
@@ -277,6 +277,7 @@ span {
 
 .about-header {
   height: 37.3rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .downbtn {
