@@ -209,10 +209,6 @@ span {
   cursor: pointer;
 }
 
-.link a:hover {
-  color: #1a2236;
-}
-
 .link:active {
   border: 2px solid #1a2236;
   background: #ffff;
@@ -268,6 +264,10 @@ span {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
   line-height: 2.4rem;
+}
+
+.link a:hover {
+  color: #1a2236;
 }
 
 .cv-btn:hover,
