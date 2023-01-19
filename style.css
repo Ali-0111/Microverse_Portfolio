@@ -260,11 +260,6 @@ span {
   justify-content: center;
 }
 
-.cv-btn:hover,
-.cv-btn:active {
-  background: #1a2236;
-}
-
 .cv-btn a {
   color: white;
   text-decoration: none;
@@ -273,6 +268,11 @@ span {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
   line-height: 2.4rem;
+}
+
+.cv-btn:hover,
+.cv-btn:active {
+  background: #1a2236;
 }
 
 .about-header {
