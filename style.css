@@ -216,8 +216,18 @@ span {
 }
 
 .link:hover {
-  color: white;
-  background: #141c30;
+  border: 1px solid #1A2236;
+  background: #ffff;
+  cursor: pointer;
+}
+
+.link a:hover {
+  color: #1a2236;
+}
+
+.link:active {
+  border: 2px solid #1A2236;
+  background: #ffff;
   cursor: pointer;
 }
 
