@@ -71,7 +71,7 @@ span {
   color: #1a2236;
 }
 
-.intro button {
+.main-btn {
   font-family: "Poppins", sans-serif;
   margin-top: 4rem;
   padding: 1.2rem 4.2rem;
@@ -83,13 +83,22 @@ span {
   border: none;
   color: white;
   font-weight: 500;
+  border: 1px solid #1a2236;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
-.intro button:hover {
-  cursor: pointer;
-  text-decoration: underline;
+.main-btn:hover {
+  background: #fff;
   color: #1a2236;
-  transition: all ease 1s;
+}
+
+.main-btn:active {
+  border: 2px solid #1a2236;
+  background: #fff;
+  color: #1a2236;
 }
 
 .intro-img {
@@ -251,28 +260,16 @@ span {
   margin-top: 3.2rem;
   margin-bottom: 40rem;
   background: #1a2236;
-  border: none;
   display: flex;
   justify-content: center;
+  align-items: center;
+  border: 1px solid #1a2236;
 }
 
-.cv-btn a {
-  color: white;
-  text-decoration: none;
-  padding-top: 1.3rem;
-  padding-bottom: 1.3rem;
-  font-size: 1.6rem;
-  font-family: "Poppins", sans-serif;
-  line-height: 2.4rem;
-}
-
-.link a:hover {
-  color: #1a2236;
-}
-
-.cv-btn:hover,
-.cv-btn:active {
-  background: #1a2236;
+.cv-btn span {
+  font-size: 1.8rem;
+  color: #fff;
+  transition: all 250ms ease-in-out;
 }
 
 .about-header {
@@ -284,6 +281,9 @@ span {
   background: url("./img/ic_download.svg");
   background-repeat: no-repeat;
   background-position: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain; 
 }
 
 .text-about {
