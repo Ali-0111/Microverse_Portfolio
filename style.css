@@ -80,7 +80,6 @@ span {
   font-size: 1.6rem;
   line-height: 2.4rem;
   text-align: center;
-  border: none;
   color: white;
   font-weight: 500;
   border: 1px solid #1a2236;
@@ -146,7 +145,7 @@ span {
   grid-column: auto;
 }
 
-.img1 img{
+.img1 img {
   height: 102%;
   width: 100%;
   object-fit: cover;
@@ -161,6 +160,7 @@ span {
 .texts ul {
   list-style: none;
 }
+
 .texts h2 {
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
@@ -233,22 +233,24 @@ span {
   background: #fff;
 }
 
+.icon {
+  background: url("./img/Union.png");
+  background-repeat: no-repeat;
+  width: 2.057rem;
+  height: 1.535rem;
+  color: #fff;
+}
+
 .link:hover .icon {
   background: url("./icon/ic_arrow_right_black.svg");
   height: 2rem;
+  width: 2.5rem;
 }
 
 .link:active {
   border: 2px solid #1a2236;
   background: #ffff;
   cursor: pointer;
-}
-
-.icon {
-  background: url("./img/Union.png");
-  background-repeat: no-repeat;
-  width: 2.057rem;
-  height: 1.535rem;
 }
 
 .about {
@@ -292,9 +294,13 @@ span {
   background-color: #1a2236;
 }
 
-.main-btn:hover .btn-label {
-  color: #1a2236;
-  background-color: white;
+.downbtn {
+  background: url("./img/ic_download.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 2.5rem;
+  height: 2.4rem;
+  object-fit: contain;
 }
 
 .main-btn:hover .btn-label {
@@ -309,19 +315,6 @@ span {
 .about-header {
   height: 37.3rem;
   font-family: "Poppins", sans-serif;
-}
-
-.downbtn {
-  background: url("./img/ic_download.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 2.5rem;
-  height: 2.4rem;
-  object-fit: contain;
-}
-
-.icon {
-  color: #fff;
 }
 
 .text-about {
@@ -483,7 +476,6 @@ textarea {
   width: 100%;
   height: 4.4rem;
   padding: 1rem;
-  border: none;
   color: white;
   background: #1a2236;
   border: 1px solid #1a2236;
