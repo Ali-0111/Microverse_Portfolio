@@ -101,6 +101,10 @@ span {
   color: #1a2236;
 }
 
+.text-about {
+  margin-top: 2rem;
+}
+
 .intro-img {
   width: 100%;
   height: 16rem;
@@ -465,6 +469,7 @@ textarea {
   border: none;
   color: white;
   background: #1a2236;
+  border: 1px solid #1a2236;
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
   font-weight: 500;
