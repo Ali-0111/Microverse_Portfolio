@@ -269,7 +269,21 @@ span {
 .cv-btn span {
   font-size: 1.8rem;
   color: #fff;
-  transition: all 250ms ease-in-out;
+  background-color: #1a2236;
+}
+
+.main-btn:hover .btn-label {
+  color: #1a2236;
+  background-color: white;
+}
+
+.main-btn:hover .btn-label {
+  color: #1a2236;
+  background-color: white;
+}
+
+.main-btn:hover .downbtn {
+  background: url("./icon/ic_download_black.svg");
 }
 
 .about-header {
@@ -281,9 +295,13 @@ span {
   background: url("./img/ic_download.svg");
   background-repeat: no-repeat;
   background-position: center;
-  width: 2.4rem;
+  width: 2.5rem;
   height: 2.4rem;
-  object-fit: contain; 
+  object-fit: contain;
+}
+
+.icon {
+  color: #fff;
 }
 
 .text-about {
