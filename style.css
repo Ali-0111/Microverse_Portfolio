@@ -183,7 +183,7 @@ span {
 
 .btns {
   margin-top: 2rem;
-  display: grid;
+  float: flex;
   grid-template-columns: 6.9rem 10rem 7.4rem;
   column-gap: 1rem;
 }
