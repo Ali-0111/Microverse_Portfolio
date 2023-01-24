@@ -137,14 +137,6 @@ span {
   grid-template-columns: 1fr;
 }
 
-/* .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
-  grid-column: auto;
-} */
-
 .img1 img {
   height: 100%;
   width: 100%;
