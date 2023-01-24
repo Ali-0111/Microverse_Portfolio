@@ -137,16 +137,16 @@ span {
   grid-template-columns: 1fr;
 }
 
-.content {
+/* .content {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
   grid-column: auto;
-}
+} */
 
 .img1 img {
-  height: 102%;
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
