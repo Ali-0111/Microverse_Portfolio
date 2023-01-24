@@ -23,7 +23,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello_Microverse] <a name="about-project"></a>
+# 📖 [Microverse_Portfolio] <a name="about-project"></a>
 
 > This is first part for building portfolio.
 
