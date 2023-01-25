@@ -622,5 +622,54 @@ textarea {
     background-position: center;
     margin: 0;
   }
-  
+  /* section about */
+  .about {
+    width: 100%;
+    padding-left: 16rem;
+    margin-top: 21.6rem;
+    margin-bottom: 15.8rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-header {
+    flex: 1 1 57.8rem;
+    order: 1;
+  }
+
+  .articles {
+    flex: 1 1 auto;
+    margin-right: 9.6rem;
+    position: relative;
+  }
+
+  .text-about {
+    margin: 0;
+  }
+  .grid-articles {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .dotsT {
+    background: url("./img/image_dots_with_teal.svg");
+    width: 22.2rem;
+    height: 22.2rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .about-h1 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 11rem;
+    font-weight: 400;
+    line-height: 11rem;
+    text-align: left;
+  }
+
+  .cv-btn {
+    width: 30rem;
+  }
 }
