@@ -565,6 +565,7 @@ textarea {
   .main-head-desktop a:hover {
     border-bottom: 2px solid #1a2236;
   }
+
   .intro-desktop {
     height: 87.7rem;
     display: flex;
@@ -621,4 +622,5 @@ textarea {
     background-position: center;
     margin: 0;
   }
+  
 }
