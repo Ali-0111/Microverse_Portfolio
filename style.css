@@ -570,6 +570,7 @@ textarea {
     display: flex;
     flex-direction: row;
     margin: 0;
+    width: 100%;
   }
   .intro-text {
     flex: 1 1 70.2rem;
@@ -609,14 +610,14 @@ textarea {
     right: 0;
     background: url("./img/image_dots.svg");
   }
-  
+
   .intro-img {
     flex: 1 1 70.2rem;
     background: url("./img/right-big.svg");
     width: 100%;
     height: 100%;
-    object-fit: cover;
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     margin: 0;
   }
