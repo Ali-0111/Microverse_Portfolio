@@ -716,11 +716,11 @@ textarea {
   }
 
   .two-shape {
-      grid-column: 1/3;
-      background:
+    grid-column: 1/3;
+    background:
       url("./img/pair-pic.svg") no-repeat left,
       url("./img/yellow-drop.svg") no-repeat right;
-      height: 8.77rem;
+    height: 8.77rem;
     }
 
   .work-right {
@@ -797,12 +797,12 @@ textarea {
   }
 
   .contact {
-      background:
+    background:
       url("./img/contact_logo.svg") no-repeat top left,
       url("./img/contact-pic-2.svg") no-repeat bottom right,
     #f9f9fa;
-      background-size: auto 35rem;
-      padding: 16.8rem 44.6rem 13.5rem 44.6rem;
+    background-size: auto 35rem;
+    padding: 16.8rem 44.6rem 13.5rem 44.6rem;
   }
 
   .form {
