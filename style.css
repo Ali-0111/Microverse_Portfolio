@@ -19,6 +19,7 @@
     bottom: -100%;
     opacity: 0;
   }
+
   to {
     bottom: 0%;
     opacity: 0.9;
@@ -401,7 +402,6 @@ span {
 .contact {
   padding-top: 10.6rem;
   padding-left: 1.8rem;
-  background: #f9f9fa;
   width: 100%;
   height: 66.3rem;
   background: url("./img/logo.svg") no-repeat top left;
@@ -552,11 +552,11 @@ textarea {
     height: 10rem;
     width: 100%;
     padding: 3.8rem 53.6rem;
-    box-shadow: 0px 0.5px 0px 0px #dddfe6;
+    box-shadow: 0 0.5px 0 0 #dddfe6;
   }
 
   .main-head-desktop nav {
-    padding: 1rem 0rem;
+    padding: 1rem 0;
     width: 36.9rem;
     height: 2.4rem;
     display: block;
@@ -587,6 +587,7 @@ textarea {
     margin: 0;
     width: 100%;
   }
+
   .intro-text {
     flex: 1 1 70.2rem;
     padding: 19.2rem 9.4rem 0 16rem;
@@ -636,6 +637,7 @@ textarea {
     background-position: center;
     margin: 0;
   }
+
   /* section : work  */
   #works-d {
     display: block;
@@ -646,6 +648,7 @@ textarea {
     display: flex;
     height: 55.8rem;
   }
+
   .work-head {
     display: flex;
     padding-left: 6rem;
@@ -714,6 +717,7 @@ textarea {
       url("./img/yellow-drop.svg") no-repeat right;
     height: 8.77rem;
   }
+
   .work-right {
     grid-template-columns: 1fr;
   }
@@ -759,6 +763,7 @@ textarea {
   .text-about {
     margin: 0;
   }
+
   .grid-articles {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -799,6 +804,7 @@ textarea {
     justify-content: center;
     align-items: center;
   }
+
   .fieldset {
     display: flex;
     width: 100%;
@@ -849,6 +855,7 @@ textarea {
     height: 3rem;
     transition: transform 300ms ease-in-out;
   }
+
   .icons img:hover {
     transform: scale(1.5);
   }
