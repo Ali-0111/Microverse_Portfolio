@@ -219,8 +219,8 @@ span {
     linear-gradient(0deg, #1a2236, #1a2236),
     linear-gradient(
       0deg,
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 0.1)
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
     );
   border: 1px solid white;
   margin-top: 2rem;
@@ -801,7 +801,7 @@ textarea {
     background:
       url("./img/contact_logo.svg") no-repeat top left,
       url("./img/contact-pic-2.svg") no-repeat bottom right,
-    #f9f9fa;
+      #f9f9fa;
     background-size: auto 35rem;
     padding: 16.8rem 44.6rem 13.5rem 44.6rem;
   }
