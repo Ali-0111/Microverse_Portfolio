@@ -49,6 +49,10 @@ span {
   display: block;
 }
 
+#logo {
+  transform: translate(42px, 18px);
+}
+
 .intro {
   width: auto;
   margin: 3rem 1.6rem;
