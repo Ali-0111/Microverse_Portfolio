@@ -638,7 +638,6 @@ textarea {
   /* section : work  */
   #works-d {
     display: block;
-    margin-bottom: 10.4rem;
     margin-top: 5rem; 
   }
 
@@ -656,16 +655,13 @@ textarea {
   }
 
   .work-head h1 {
-    transform: translate(0, -50%) rotate(-90deg);
+    transform: rotate(-90deg);
     width: auto;
     position: absolute;
-    top: 19rem;
-    left: -12.6rem;
+    top: 13rem;
     font-size: 11rem;
-    line-height: 110rem;
-    margin-top: 0;
     margin-left: 7rem;
-    margin-right: 0;
+    right: 6.8rem;
   }
 
   .work-dots {
@@ -730,8 +726,8 @@ textarea {
     position: absolute;
     width: 100%;
     bottom: -100%; 
-    height: auto;
-    /* transition: all 700ms ease-in-out; */
+    height: 60%;
+    transition: all 700ms ease-in-out;
   }
 
   .content:hover  .texts{
@@ -742,8 +738,8 @@ textarea {
   .about {
     width: 100%;
     padding-left: 16rem;
-    margin-top: 21.6rem;
-    margin-bottom: 15.8rem;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
     display: flex;
     flex-direction: row;
   }
