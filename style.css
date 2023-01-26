@@ -801,7 +801,7 @@ textarea {
     background:
       url("./img/contact_logo.svg") no-repeat top left,
       url("./img/contact-pic-2.svg") no-repeat bottom right,
-      #f9f9fa;
+    white;
     background-size: auto 35rem;
     padding: 16.8rem 44.6rem 13.5rem 44.6rem;
   }
