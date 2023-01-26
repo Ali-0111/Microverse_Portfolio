@@ -218,7 +218,8 @@ span {
   background:
     linear-gradient(0deg, #1a2236, #1a2236),
     linear-gradient(
-      0deg, rgba(255, 255, 255, 0.1),
+      0deg,
+    rgba(255, 255, 255, 0.1),
     rgba(255, 255, 255, 0.1)
     );
   border: 1px solid white;
@@ -721,7 +722,7 @@ textarea {
       url("./img/pair-pic.svg") no-repeat left,
       url("./img/yellow-drop.svg") no-repeat right;
     height: 8.77rem;
-    }
+  }
 
   .work-right {
     grid-template-columns: 1fr;
