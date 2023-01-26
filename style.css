@@ -14,6 +14,17 @@
   src: url("/fonts/Poppins-Regular.ttf");
 }
 
+@keyframes slideUp {
+  from {
+    bottom: -100%;
+    opacity: 0;
+  }
+  to {
+    bottom: 0%; 
+    opacity: 0.9;
+  }
+}
+
 html {
   font-size: 62.5%;
 }
@@ -529,6 +540,7 @@ textarea {
 .main-head-desktop {
   display: none;
 }
+
 @media screen and (min-width: 768px) {
   .main-head {
     display: none;
@@ -623,11 +635,11 @@ textarea {
     background-position: center;
     margin: 0;
   }
-  /* section : contact  */
+  /* section : work  */
   #works-d {
     display: block;
     margin-bottom: 10.4rem;
-    margin-top: 5rem;
+    margin-top: 5rem; 
   }
 
   .work-top {
@@ -666,12 +678,8 @@ textarea {
     flex: 1 0 66.67%;
   }
   
-  .img1 {
-    display: flex;
-    height: 100%;
-  }
   .grid_2r {
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 1fr;
   }
 
   .work-mid {
@@ -690,7 +698,8 @@ textarea {
 
   .sq-img {
     grid-column: 2/4;
-    background: url("./img/sq-pic.svg") no-repeat;
+    background: url("./img/sq-pic.svg") no-repeat center;
+    background-size: 100% 100%;
   }
 
   .content-3 {
@@ -705,12 +714,30 @@ textarea {
   .two-shape {
     grid-column: 1/3;
     background: url("./img/pair-pic.svg") no-repeat left, url("./img/yellow-drop.svg") no-repeat right;
+    height: 8.77rem;
 
   }
   .work-right {
     grid-template-columns: 1fr;
   }
 
+  .content {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .texts {
+    position: absolute;
+    width: 100%;
+    bottom: -100%; 
+    height: auto;
+    /* transition: all 700ms ease-in-out; */
+  }
+
+  .content:hover  .texts{
+    animation: slideUp 700ms ease-in-out forwards;
+  } 
+  
   /* section about */
   .about {
     width: 100%;
@@ -828,3 +855,4 @@ textarea {
     transform: scale(1.5);
   }
 } 
+
