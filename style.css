@@ -418,7 +418,7 @@ span {
 }
 
 .title {
-  margin: 3rem 0;
+  padding: 3rem 0;
   margin: 3rem 1.4rem 3.2rem 1.8rem;
   color: #1a2236;
 }
@@ -464,6 +464,7 @@ textarea {
 }
 
 fieldset label {
+  background-color: #f9f9f9;
   font-size: 1rem;
   line-height: 1.5rem;
   height: 1.5rem;
@@ -823,32 +824,38 @@ textarea {
     background:
       url("./img/contact_logo.svg") no-repeat top left,
       url("./img/contact-pic-2.svg") no-repeat bottom right,
-      white;
+      #f9f9fa;
     background-size: auto 35rem;
-    padding: 16.8rem 44.6rem 13.5rem 44.6rem;
-  }
-
-  .form {
+    height: 95rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 54.8rem;
+    padding: 0;
+    margin-bottom: 6rem;
+  }
+
   .fieldset {
     display: flex;
-    width: 100%;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     padding: 0.5rem 0;
+    margin: 0;
   }
 
   fieldset {
-    width: 25.4rem;
     margin-bottom: 0;
     border: none;
     background-color: #f9f9fa;
     padding: 0;
+    width: 25.4rem;
   }
 
   fieldset input {
@@ -856,7 +863,6 @@ textarea {
     height: 3rem;
     padding: 1.8rem 2rem;
     border-radius: 4px;
-    width: 25.4rem;
   }
 
   .lbl-textarea {
@@ -888,5 +894,31 @@ textarea {
 
   .icons img:hover {
     transform: scale(1.5);
+  }
+
+  .title {
+    width: 54.8rem;
+    text-align: left;
+  }
+  
+  .title h1 {
+    font-family: "Playfair Display", sans-serif;
+    color: #1a2236;
+    font-size: 11rem;
+    font-weight: 400;
+    line-height: 11rem;
+    display: inline-block;
+  }
+  
+  .title p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+    text-align: left;
+  }
+  
+  .form-btn {
+    align-self: center;
   }
 }
