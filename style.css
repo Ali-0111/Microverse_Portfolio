@@ -656,7 +656,7 @@ textarea {
   .work-head {
     display: flex;
     padding-left: 6rem;
-    padding-top: 1rem;
+    padding-top: 0.2rem;
     justify-content: flex-end;
     flex: 1 0 33.33%;
     position: relative;
@@ -666,7 +666,7 @@ textarea {
     transform: rotate(-90deg);
     width: auto;
     position: absolute;
-    top: 14rem;
+    top: 12.8rem;
     font-size: 11rem;
     margin-left: 7rem;
     right: 6.8rem;
@@ -730,8 +730,6 @@ textarea {
 
   .content {
     position: relative;
-    overflow: hidden;
-    padding-top: 1rem;
   }
 
   .texts {
