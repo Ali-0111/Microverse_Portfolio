@@ -729,9 +729,9 @@ textarea {
     grid-column: 3/6;
     background: url("./img/bottom-right-pic-grid.svg") no-repeat; 
     width: 56.5rem;
-    height: 23.5rem;
-    margin-bottom:1rem;
-    top:0;
+    height: 24.5rem;
+    margin-bottom:3rem;
+    top:-1rem;
     right: 0;
     position: absolute;
     background-size: cover;
