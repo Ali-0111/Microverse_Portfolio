@@ -729,8 +729,7 @@ textarea {
   .red-shape {
     grid-row: 3/4;
     grid-column: 3/6;
-    background: 
-      url("./img/bottom-right-pic-grid.svg") no-repeat;
+    background: url("./img/bottom-right-pic-grid.svg") no-repeat;
     width: 56.5rem;
     height: 24.5rem;
     margin-bottom: 3rem;
