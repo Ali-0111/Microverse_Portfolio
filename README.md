@@ -23,7 +23,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Microverse_Portfolio] <a name="about-project"></a>
+# 📖 [My_Portfolio] <a name="about-project"></a>
 
 > This is first part for building portfolio.
 
@@ -38,7 +38,7 @@
 - Write a descriptive and easy to understand README in business English for every project submitted.
 - Demonstrate an ability to submit a project for code review.
 
-**[Micorverse-Porfolio]** is a project that has been built in this repo.
+**[My-Porfolio]** is a project that has been built in this repo.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -89,6 +89,7 @@
 - **[Linters]**
 - **[HTML5]**
 - **[CSS]**
+- - **[GitHub Pages]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
