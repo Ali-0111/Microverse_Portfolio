@@ -911,7 +911,9 @@ textarea {
   }
 
   .footer-btn {
-    width: 14.4rem;
+    width: fit-content;
+    text-align: center;
+    border: 2px solid red;
   }
 
   .icons {
