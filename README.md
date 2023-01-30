@@ -98,7 +98,7 @@
 
 > link to this project.
 
-- [Hello Microverse](https://github.com/Ali-0111/Microverse_Portfolio.git)
+- [Hello Microverse](https://ali-0111.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
