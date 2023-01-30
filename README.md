@@ -24,9 +24,6 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [My_Portfolio] <a name="about-project"></a>
-
-> This is first part for building portfolio.
-
 > Objectives of this project are to learn how to:
 
 - Create feature-mobile branch first with main branch.
@@ -89,7 +86,7 @@
 - **[Linters]**
 - **[HTML5]**
 - **[CSS]**
-- - **[GitHub Pages]**
+- **[GitHub Pages]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
