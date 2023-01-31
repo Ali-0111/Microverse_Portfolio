@@ -95,7 +95,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> link to this project.
 
 - [My-Portfolio](https://ali-0111.github.io/)
 
