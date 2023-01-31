@@ -25,6 +25,8 @@
 
 # 📖 [Microverse_Portfolio] <a name="about-project"></a>
 
+> This is first part for building portfolio.
+
 > Objectives of this project are to learn how to:
 
 - Create mobile and desktop version for porfolio.
@@ -37,7 +39,7 @@
 - Write a descriptive and easy to understand README in business English for every project submitted.
 - Demonstrate an ability to submit a project for code review.
 
-**[Micorverse-Porfolio]** is a project that has been built in this repo.
+**[My-Porfolio]** is a project that has been built in this repo.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -88,6 +90,7 @@
 - **[Linters]**
 - **[HTML5]**
 - **[CSS]**
+- **[GitHub Pages]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +128,7 @@ After Installing Google Chrome set it as default browser.
 
 ### Usage
 
-To run the project, click [My-Microverse](https://github.com/Ali-0111/Microverse_Portfolio.git)
+To run the project, click [Hello Microverse](https://github.com/Ali-0111/Microverse_Portfolio.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
