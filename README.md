@@ -25,11 +25,10 @@
 
 # 📖 [Microverse_Portfolio] <a name="about-project"></a>
 
-> This is first part for building portfolio.
-
 > Objectives of this project are to learn how to:
 
-- Create feature-mobile branch first with main branch.
+- Create mobile and desktop version for porfolio.
+- Deploy it in Github.
 - Building mobile version of portfolio first
 - Follow GitHub flow.
 - Open pull requests in GitHub.
@@ -98,7 +97,7 @@
 
 > link to this project.
 
-- [Hello Microverse](https://ali-0111.github.io/)
+- [My-Portfolio](https://ali-0111.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,7 +125,7 @@ After Installing Google Chrome set it as default browser.
 
 ### Usage
 
-To run the project, click [Hello Microverse](https://github.com/Ali-0111/Microverse_Portfolio.git)
+To run the project, click [My-Microverse](https://github.com/Ali-0111/Microverse_Portfolio.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
