@@ -283,6 +283,7 @@ span {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  z-index: 2;
 }
 
 .link-t {
@@ -290,6 +291,7 @@ span {
   font-size: 1.6rem;
   padding: 0;
   background-color: #1a2236;
+  pointer-events: none;
 }
 
 .link:hover {
@@ -309,6 +311,7 @@ span {
   width: 2.057rem;
   height: 1.535rem;
   color: #fff;
+  pointer-events: none;
 }
 
 .link:hover .icon {
