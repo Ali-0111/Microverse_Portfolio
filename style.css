@@ -652,7 +652,7 @@ textarea {
   .intro-text h1 {
     font-family: "Playfair Display", sans-serif;
     font-size: 11rem;
-    font-weight: 40rem;
+    font-weight: 400;
     line-height: 11rem;
     text-align: left;
   }
