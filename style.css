@@ -93,7 +93,6 @@ span {
 
 .main-head-visible {
   display: block;
-  border: 2px solid red;
   position: fixed;
   z-index: 2;
   top: 0;
