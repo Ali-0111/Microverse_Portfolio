@@ -14,12 +14,3 @@ function menuTuggle() {
   span2.classList.toggle('span-2-j');
   mainHead.classList.toggle('main-head-visible');
 }
-function popUp (e) {
-  console.log(e.target);
-}
-// adding events
-humberger.addEventListener('click', menuTuggle);
-// humber ger clicked function
-Array.from(links).forEach((element) => element.addEventListener('click', menuTuggle));
-
-seeProjectBtn.addEventListener('click', popUp);
