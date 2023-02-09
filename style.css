@@ -203,6 +203,15 @@ span {
   grid-template-columns: 1fr;
 }
 
+.section-pop {
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  border: 2px solid black;
+  position: fixed;
+  z-index: 5;
+}
+
 .grid_2r {
   display: grid;
   grid-template-rows: 18.6rem auto;
