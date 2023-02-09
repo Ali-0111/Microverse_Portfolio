@@ -29,6 +29,10 @@ function showError() {
   msg.innerText = 'Use emil in lowerCase';
 }
 
+function ok() {
+  const msg = document.querySelector('small');
+  msg.innerText = 'valid-email';
+}
 // adding events section 
 humberger.addEventListener('click', menuTuggle);
 // humber ger clicked function
@@ -40,9 +44,8 @@ event.preventDefault();
 const validationResult = emailValidation(form.elements['email'].value)
 if (validationResult) 
 {
-  
+  ok();
   form.submit();
-  
 }
 else {
   showError();
