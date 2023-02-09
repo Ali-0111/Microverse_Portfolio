@@ -14,6 +14,9 @@ function menuTuggle() {
   span2.classList.toggle('span-2-j');
   mainHead.classList.toggle('main-head-visible');
 }
+humberger.addEventListener('click', menuTuggle);
+// humber ger clicked function
+Array.from(links).forEach((element) => element.addEventListener('click', menuTuggle));
 
 // function : showError
 function showError() {
