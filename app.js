@@ -4,6 +4,7 @@ const spanHide = document.querySelector('.humberger .hide');
 const span1 = document.querySelector('.humberger .span-1');
 const span2 = document.querySelector('.humberger .span-2');
 const links = document.querySelectorAll('nav .flex a');
+const form = document.querySelector('.form');
 
 // munu-tuggle function
 function menuTuggle() {
@@ -13,6 +14,37 @@ function menuTuggle() {
   span2.classList.toggle('span-2-j');
   mainHead.classList.toggle('main-head-visible');
 }
+
+// function : email validation
+function emailValidation(input) {
+  if (input === input.toLowerCase())
+  {
+    return true;
+  } 
+}
+// function : showError
+
+function showError() {
+  const msg = document.querySelector('small');
+  msg.innerText = 'Use emil in lowerCase';
+}
+
+// adding events section 
 humberger.addEventListener('click', menuTuggle);
 // humber ger clicked function
 Array.from(links).forEach((element) => element.addEventListener('click', menuTuggle));
+
+// form submit event 
+form.addEventListener('submit', (event)=> {
+event.preventDefault();
+const validationResult = emailValidation(form.elements['email'].value)
+if (validationResult) 
+{
+  
+  form.submit();
+  
+}
+else {
+  showError();
+}
+});

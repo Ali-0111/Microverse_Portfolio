@@ -34,6 +34,13 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.error {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  color: green;
+  padding: 0.5rem;
+}
+
 .flex {
   display: flex;
   justify-content: space-between;
