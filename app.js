@@ -15,39 +15,30 @@ function menuTuggle() {
   mainHead.classList.toggle('main-head-visible');
 }
 
-// function : email validation
-function emailValidation(input) {
-  if (input === input.toLowerCase())
-  {
-    return true;
-  } 
-}
-// function : showError
 
+// function : showError
 function showError() {
   const msg = document.querySelector('small');
   msg.innerText = 'Use emil in lowerCase';
 }
-
+// function valid email
 function ok() {
   const msg = document.querySelector('small');
-  msg.innerText = 'valid-email';
+  msg.innerText = 'sending...';
 }
-// adding events section 
+// adding events section
 humberger.addEventListener('click', menuTuggle);
 // humber ger clicked function
 Array.from(links).forEach((element) => element.addEventListener('click', menuTuggle));
 
-// form submit event 
-form.addEventListener('submit', (event)=> {
-event.preventDefault();
-const validationResult = emailValidation(form.elements['email'].value)
-if (validationResult) 
-{
-  ok();
-  form.submit();
-}
-else {
-  showError();
-}
+// form submit event
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const inputEmail = form.elements.email.value;
+  if (inputEmail === inputEmail.toLowerCase()) {
+    ok();
+    form.submit();
+  } else {
+    showError();
+  }
 });
