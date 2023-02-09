@@ -15,7 +15,6 @@ function menuTuggle() {
   mainHead.classList.toggle('main-head-visible');
 }
 
-
 // function : showError
 function showError() {
   const msg = document.querySelector('small');
