@@ -31,8 +31,8 @@ function ok() {
 // validation
 
 function validation() {
-  const v = form.elements.email.value;
-  if (v === v.toLowerCase()) {
+  const emailAdd = form.elements.email.value;
+  if (emailAdd === emailAdd.toLowerCase()) {
     form.submit();
     ok();
   } else {
