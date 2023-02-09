@@ -22,23 +22,22 @@ function showError() {
   msg.innerText = 'Use emil in lowerCase';
 }
 
-// validation 
-
-function validation() {
-  const v = form.elements['email'].value;
-  if (v === v.toLowerCase())
-  {
-    form.submit();
-    alert("Click Ok for sending...");
-  }
-  else {
-    showError();
-  }
-}
 // function valid email entered
 function ok() {
   const msg = document.querySelector('small');
-  msg.innerText = 'valid';
+  msg.innerText = 'Approved';
+}
+
+// validation
+
+function validation() {
+  const v = form.elements.email.value;
+  if (v === v.toLowerCase()) {
+    form.submit();
+    ok();
+  } else {
+    showError();
+  }
 }
 
 // adding events section
