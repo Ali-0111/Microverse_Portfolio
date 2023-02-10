@@ -227,6 +227,18 @@ function popUp(projects) {
             "${projects[i].description}";
           </p>
         </div>
+
+        <div class = "extra">
+          <button class ="live">
+          See Live
+            <span class="footer-down2"></span>
+          </button>
+          <button class ="source">
+            See Source
+            <span class="footer-down3"></span>
+          </button>
+        </div>
+
       </div>`;
     section.appendChild(pop);
     body.appendChild(section);

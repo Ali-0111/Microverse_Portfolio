@@ -4,15 +4,46 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Playfair Display";
+  src: url("/fonts/PlayfairDisplay-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Regular.ttf");
+}
+
+@keyframes slideUp {
+  from {
+    bottom: -100%;
+    opacity: 0;
+  }
+
+  to {
+    bottom: 0%;
+    opacity: 0.9;
+  }
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 .pop-div2 {
   padding: 2rem;
   width: 100%;
-  min-height: 100vh;
+  max-height: 100%;
   background: white;
   z-index: 3;
-  position: absolute;
+  position: fixed;
   display: block;
   top: 0;
+  overflow-y: scroll;
 }
 
 .close {
@@ -78,34 +109,37 @@
   color: #1a2236;
 }
 
-@font-face {
-  font-family: "Playfair Display";
-  src: url("/fonts/PlayfairDisplay-Regular.ttf");
-}
-
-@font-face {
-  font-family: "Poppins";
-  src: url("/fonts/Poppins-Regular.ttf");
-}
-
-@keyframes slideUp {
-  from {
-    bottom: -100%;
-    opacity: 0;
-  }
-
-  to {
-    bottom: 0%;
-    opacity: 0.9;
-  }
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
+.live,
+.source {
+  width: 90%;
+  height: 5rem;
+  padding: 1.2rem 1.4rem 1.2rem 12rem;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  border: 1px solid #1a2236;
+  font-size: 1.8rem;
   font-family: "Poppins", sans-serif;
+  align-items: center;
+  margin: 3rem auto;
+}
+
+.live span {
+  color: #1a2236;
+  background: url("./icon/Union.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+.footer-down3 {
+  color: #1a2236;
+  background: url("./icon/Vector.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 2.5rem;
+  height: 2.2rem;
 }
 
 .flex {
@@ -1067,5 +1101,38 @@ textarea {
   .footer-down {
     background: url("./icon/footer-down.svg") no-repeat center;
     background-size: 2.2rem;
+  }
+
+  .description {
+    width: 70rem;
+    margin: auto;
+  }
+
+  .extra {
+    display: flex;
+    margin-left: 29rem;
+    width: fit-content;
+  }
+
+  .live,
+  .source {
+    width: 24.6rem;
+    padding: 1.2rem 2.2rem;
+    margin-right: 3rem;
+  }
+
+  .live:hover,
+  .source:hover {
+    cursor: pointer;
+    background-color: #1a2236;
+    color: white;
+  }
+
+  .source:hover .footer-down3 {
+    background: url('./icon/Group.svg') no-repeat center;
+  }
+
+  .live:hover .footer-down2 {
+    background: url('./icon/Mediamodifier.svg') no-repeat center;
   }
 }
