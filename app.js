@@ -6,12 +6,15 @@ const span2 = document.querySelector('.humberger .span-2');
 const links = document.querySelectorAll('nav .flex a');
 const main = document.querySelector('main');
 const card2_6 = document.querySelector('.work-mid');
+const work = document.querySelector('.work');
+const body = document.querySelector('body');
+const textContainer = document.querySelector('.texts');
 
 const projects = [
   {
     name : 'Project-1',
     tecnologies : ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
-    description : 'I used first project',
+    description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nostrum quam ipsam aspernatur modi tempore sequi! Accusamus vitae error, minima atque reiciendis voluptas iusto explicabo. Praesentium voluptate hic velit magnam!',
     img : './img/w1.png',
     linkLive: '#',
     linkSource: '#'
@@ -19,7 +22,7 @@ const projects = [
   {
     name : 'Project-2',
     tecnologies : ['HTML/CSS', 'Ruby', 'Java',],
-    description : 'I used  project-2',
+    description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nostrum quam ipsam aspernatur modi tempore sequi! Accusamus vitae error, minima atque reiciendis voluptas iusto explicabo. Praesentium voluptate hic velit magnam!',
     img : './img/w-2.jpg',
     linkLive: '#',
     linkSource: '#'
@@ -27,7 +30,7 @@ const projects = [
   {
     name : 'Project-3',
     tecnologies : ['HTML/CSS', 'Python', 'Rails'],
-    description : 'I used  project-3',
+    description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nostrum quam ipsam aspernatur modi tempore sequi! Accusamus vitae error, minima atque reiciendis voluptas iusto explicabo. Praesentium voluptate hic velit magnam!',
     img : './img/w-3.jpg',
     linkLive: '#',
     linkSource: '#'
@@ -35,7 +38,7 @@ const projects = [
   {
     name : 'Project-4',
     tecnologies : ['React', 'Ruby on Rails', 'Nodes JS'],
-    description : 'I used  project -4',
+    description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nostrum quam ipsam aspernatur modi tempore sequi! Accusamus vitae error, minima atque reiciendis voluptas iusto explicabo. Praesentium voluptate hic velit magnam!',
     img : './img/w-4.jpg',
     linkLive: '#',
     linkSource: '#'
@@ -43,7 +46,7 @@ const projects = [
   {
     name : 'Project-5',
     tecnologies : ['Ruby on Rails', 'C++', 'Python'],
-    description : 'I used  project-5',
+    description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nostrum quam ipsam aspernatur modi tempore sequi! Accusamus vitae error, minima atque reiciendis voluptas iusto explicabo. Praesentium voluptate hic velit magnam!',
     img : './img/w5.jpg',
     linkLive: '#',
     linkSource: '#'
@@ -51,7 +54,7 @@ const projects = [
   {
     name : 'Project-6',
     tecnologies : ['C#', 'C', 'OOP'],
-    description : 'I used project -6',
+    description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nostrum quam ipsam aspernatur modi tempore sequi! Accusamus vitae error, minima atque reiciendis voluptas iusto explicabo. Praesentium voluptate hic velit magnam!',
     img : './img/w6.jpg',
     linkLive: '#',
     linkSource: '#'
@@ -69,6 +72,9 @@ function showCards(projects) {
           <div class="texts">
             <h2>"${projects[i].name}"</h2>
             <ul class="btns">
+            <li class="btn-1 btn">"${projects[i].tecnologies[0]}"</li>
+            <li class="btn-2 btn">"${projects[i].tecnologies[1]}"</li>
+            <li class="btn-3 btn">"${projects[i].tecnologies[2]}"</li>
             </ul>
             <button class="btn-4 link">
               <span class="link-t">See this project</span>
@@ -78,8 +84,7 @@ function showCards(projects) {
         </div>
     `;
   card2_6.insertAdjacentHTML('beforeend', htmlText); 
-  };
-}
+}}
 
 // function : display technologies
 function displayTech(projects) {
@@ -92,7 +97,6 @@ function displayTech(projects) {
   }
 }
 
-
 // munu-tuggle function
 function menuTuggle() {
   humberger.classList.toggle('p-fixed');
@@ -101,34 +105,57 @@ function menuTuggle() {
   span2.classList.toggle('span-2-j');
   mainHead.classList.toggle('main-head-visible');
 }
-// // function : pop up
+// function : pop up
 function popUp(projects) {
+  
   const btn4 = [...document.querySelectorAll('.btn-4')];
   console.log(btn4);
-  btn4.forEach((btn) => {
-    btn.addEventListener('click', (displayPop = () => {
-      console.log("event added for ");
-      const htmlText = `<div class="pop-div" style="width:100%">
-      popUp content;
-      </div>`;
-      document.body.insertAdjacentHTML('beforebegin', htmlText);
-      const popCont = document.querySelector('.pop-div');
-      popCont.style.display = 'block';
-    }));
-  });
-}
+  btn4.forEach((btn, i) => {
+    btn.addEventListener('click', () => {
+      const main  = document.createElement('div');
+      main.classList = 'pop-div2';
+      const pop  = document.createElement('div');
+      textContainer.id = "texts2";
+      pop.classList = 'pop-div';
+      pop.innerHTML= `
+      <div class="content-2 content grid_2r">
+        <div class="texts" id="text2">
+            <h2>"${projects[i].name}"</h2>
+            <ul class="btns">
+            <li class="btn-1 btn">"${projects[i].tecnologies[0]}"</li>
+            <li class="btn-2 btn">"${projects[i].tecnologies[1]}"</li>
+            <li class="btn-3 btn">"${projects[i].tecnologies[2]}"</li>
+            </ul>
+            <button class="close">
+            <strong>X</strong>
+            </button>
+            </div>
+        <div class="img1">
+          <img src="${projects[i].img}" alt="${projects[i].name}">
+        </div>
+        <div class="description">
+        <p>
+        "${projects[i].description}";
+        </p>
+        </div>      
+      </div>
+      `;
+      main.appendChild(pop);
+    body.appendChild(main);
+    const closeButton = document.querySelector('.close');
+    closeButton.addEventListener('click', () => {
+      body.removeChild(main);
+    });
+    })
+  }) 
+ }
 
 humberger.addEventListener('click', menuTuggle);
 // humber ger clicked function
 Array.from(links).forEach((element) => element.addEventListener('click', menuTuggle));
 
-
-
 window.onload = () => {
   showCards(projects);
   displayTech(projects);
   popUp(projects);
-} 
-
-
-
+}
