@@ -5,29 +5,77 @@
 }
 
 .pop-div2 {
-  border:2px solid red;
-  height: 100vh;
+  padding: 2rem;
   width: 100%;
+  min-height: 100vh;
   background: white;
   z-index: 3;
-  position: fixed;
+  position: absolute;
   display: block;
   top: 0;
 }
 
- #text2 {
-  border: 2px solid green;
-}
-
 .close {
   position: absolute;
+  background-color: white;
   top: 1rem;
   right: 1rem;
-  background-color: white;
   padding: 0 1rem;
-  border: none;
   cursor: pointer;
   font-size: 4rem;
+  margin-bottom: 1.8rem;
+  display: inline;
+  border: none;
+}
+
+.title-pop-up {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.6rem;
+  color: #1a2236;
+}
+
+.btns-pop {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 2.3rem 4rem 1.8rem 0;
+}
+
+.btn-p {
+  background: linear-gradient(0deg, #ffffff, #ffffff);
+  color: linear-gradient(0deg, #1a2236, #1a2236);  
+  border: 0.52px solid #1a2236;
+  padding: 0.2rem 1rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  margin-right: 4rem;
+}
+
+.btn-1-p {
+  width: 7rem;
+}
+
+.btn-2-p {
+  width: 9rem;
+}
+
+.btn-1-p {
+  width: 7.4rem;
+}
+
+.texts3 {
+  background-color: white;
+}
+
+.description p {
+  margin-top: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+  color: #1a2236;
 }
 
 @font-face {
