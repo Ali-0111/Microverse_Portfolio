@@ -5,6 +5,7 @@ const span1 = document.querySelector('.humberger .span-1');
 const span2 = document.querySelector('.humberger .span-2');
 const links = document.querySelectorAll('nav .flex a');
 const form = document.querySelector('.form');
+const inputs = document.querySelectorAll('.input2')
 
 // munu-tuggle function
 function menuTuggle() {
@@ -40,6 +41,29 @@ function validation() {
   }
 }
 
+
+// saved Local 
+
+function savedLocal() {
+  const emailAdd = form.elements.email.value;
+  const name = form.elements.name.value;
+  const message = form.elements.textarea.value;
+  localStorage.setItem('formData', JSON.stringify({
+    name: name,
+    email: emailAdd,
+    message: message
+  }));
+}
+
+// fillForm function
+
+function fillForm() {
+  const dataRestored = JSON.parse(localStorage.getItem('formData'));
+  form.elements.name.value = dataRestored.name;
+  form.elements.email.value = dataRestored.email;
+  form.elements.textarea.value = dataRestored.message;
+  console.log("Restore done!");
+}
 // adding events section
 
 humberger.addEventListener('click', menuTuggle);
@@ -51,3 +75,16 @@ form.addEventListener('submit', (event) => {
   event.preventDefault();
   validation();
 });
+
+// input event to save
+inputs.forEach((input) => {
+  input.addEventListener('input', () => {  
+    savedLocal();
+  })
+})
+
+// filling the form on when windows loads
+
+window.addEventListener("load",() => {
+  fillForm();
+})
