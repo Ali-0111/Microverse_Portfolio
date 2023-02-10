@@ -6,12 +6,12 @@
 
 @font-face {
   font-family: "Playfair Display";
-  src: url("/fonts/PlayfairDisplay-Regular.ttf");
+  src: url("./fonts/PlayfairDisplay-Regular.ttf");
 }
 
 @font-face {
   font-family: "Poppins";
-  src: url("/fonts/Poppins-Regular.ttf");
+  src: url("./fonts/Poppins-Regular.ttf");
 }
 
 @keyframes slideUp {
