@@ -75,8 +75,8 @@ body {
 }
 
 .btn-p {
-  background: linear-gradient(0deg, #ffffff, #ffffff);
-  color: linear-gradient(0deg, #1a2236, #1a2236);  
+  background: white;
+  color: #1a2236;
   border: 0.52px solid #1a2236;
   padding: 0.2rem 1rem;
   font-family: "Poppins", sans-serif;
@@ -92,7 +92,7 @@ body {
   width: 9rem;
 }
 
-.btn-1-p {
+.btn-3-p {
   width: 7.4rem;
 }
 
@@ -125,7 +125,7 @@ body {
   cursor: pointer;
 }
 
-.live span {
+.footer-down2 {
   color: #1a2236;
   background: url("./icon/Union.svg");
   background-position: center;
