@@ -4,60 +4,57 @@ const spanHide = document.querySelector('.humberger .hide');
 const span1 = document.querySelector('.humberger .span-1');
 const span2 = document.querySelector('.humberger .span-2');
 const links = document.querySelectorAll('nav .flex a');
-const main = document.querySelector('main');
-const card2_6 = document.querySelector('.work-mid');
 const work = document.querySelector('.work');
 const body = document.querySelector('main');
-const sectionWork = document.querySelector('.work');
 const projects = [
   {
-    name : 'Project-1',
-    tecnologies : ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
-    description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    img : './img/w1.png',
+    name: 'Project-1',
+    tecnologies: ['HTML/CSS', 'Ruby on Rails', 'JavaScript'],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    img: './img/w1.png',
     linkLive: '#',
-    linkSource: '#'
+    linkSource: '#',
   },
   {
-    name : 'Project-2',
-    tecnologies : ['HTML/CSS', 'Ruby', 'Java',],
-    description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    img : './img/w-2.jpg',
+    name: 'Project-2',
+    tecnologies: ['HTML/CSS', 'Ruby', 'Java'],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    img: './img/w-2.jpg',
     linkLive: '#',
-    linkSource: '#'
+    linkSource: '#',
   },
   {
-    name : 'Project-3',
-    tecnologies : ['HTML/CSS', 'Python', 'Rails'],
-    description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    img : './img/w-3.jpg',
+    name: 'Project-3',
+    tecnologies: ['HTML/CSS', 'Python', 'Rails'],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    img: './img/w-3.jpg',
     linkLive: '#',
-    linkSource: '#'
+    linkSource: '#',
   },
   {
-    name : 'Project-4',
-    tecnologies : ['React', 'Ruby on Rails', 'Nodes JS'],
-    description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    img : './img/w-4.jpg',
+    name: 'Project-4',
+    tecnologies: ['React', 'Ruby on Rails', 'Nodes JS'],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    img: './img/w-4.jpg',
     linkLive: '#',
-    linkSource: '#'
+    linkSource: '#',
   },
   {
-    name : 'Project-5',
-    tecnologies : ['Ruby', 'C++', 'Python'],
-    description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    img : './img/w5.jpg',
+    name: 'Project-5',
+    tecnologies: ['Ruby', 'C++', 'Python'],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    img: './img/w5.jpg',
     linkLive: '#',
-    linkSource: '#'
+    linkSource: '#',
   },
   {
-    name : 'Project-6',
-    tecnologies : ['C#', 'C', 'OOP'],
-    description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
-    img : './img/w6.jpg',
+    name: 'Project-6',
+    tecnologies: ['C#', 'C', 'OOP'],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
+    img: './img/w6.jpg',
     linkLive: '#',
-    linkSource: '#'
-  }
+    linkSource: '#',
+  },
 
 ];
 
@@ -70,7 +67,7 @@ function menuTuggle() {
   mainHead.classList.toggle('main-head-visible');
 }
 
-// function for projecs iterating 
+// function for projecs iterating
 // create all work section by javascript
 function showCards(projects) {
   const workTop = document.createElement('div');
@@ -192,24 +189,21 @@ function showCards(projects) {
                 </div>
               </div>
             </div>
-  `
+  `;
   work.append(workTop);
-  work.append(workMid); 
+  work.append(workMid);
 }
 
 // function : pop up
 function popUp(projects) {
-  
   const btn4 = [...document.querySelectorAll('.btn-4')];
-  console.log(btn4);
   btn4.forEach((btn, i) => {
     btn.addEventListener('click', () => {
-      const section  = document.createElement('section');
+      const section = document.createElement('section');
       section.classList = 'pop-div2';
-
-      const pop  = document.createElement('div');
+      const pop = document.createElement('div');
       pop.classList = 'pop-div';
-      pop.innerHTML= `
+      pop.innerHTML = `
       <button class="close">X</button>
       <div><h2 class ="title-pop-up">${projects[i].name}</h2></div>
       <div class="btns-pop-up"">
@@ -240,15 +234,15 @@ function popUp(projects) {
         </div>
 
       </div>`;
-    section.appendChild(pop);
-    body.appendChild(section);
-    const closeButton = document.querySelector('.close');
-    closeButton.addEventListener('click', () => {
-      body.removeChild(section);
+      section.appendChild(pop);
+      body.appendChild(section);
+      const closeButton = document.querySelector('.close');
+      closeButton.addEventListener('click', () => {
+        body.removeChild(section);
+      });
     });
-    })
-  }) 
- }
+  });
+}
 
 // Adding events :
 
@@ -261,4 +255,4 @@ window.onload = () => {
   showCards(projects);
   // displayTech(projects);
   popUp(projects);
-}
+};
